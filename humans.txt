@@ -1,0 +1,11 @@
+/* TEAM */
+Creator: ProgramasJAS JAS
+Contact: JAS [at] gmail.com
+From: Colombia,
+
+/* SITE */
+
+Last Update: 2024/03/01
+language: Español
+Standars: HTML5, CSS3, JavaScript
+Components: Microsoft Web Matrix 3, Adobe Photoshop visual studio code

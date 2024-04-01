@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>GamesVGR</title>
+
+        <meta name="description" content="Programas, Videojuegos y + "/>
+        <meta name="viewport" content="width=device-width,initial,-scale=1"/>
+        <link rel="shortcut icon" type="image/x-icon" href="icono.ico"/>
+        <link rel="author" type="text/plain" href="humans.txt"/>
+        <link rel="sitemap" type="application/xml" title="sitemap" href="sitemap.xml"/>
+        <link rel="stylesheet" href="css/flexslider.css"/>
+        <link rel="stylesheet" href="css/estilos.css"/>
+        <link rel="stylesheet" href="css/flotante.css"/>
+
+        <!-- en el jquery/1.7.1/ se puede poder jquery/1/ para que se actualice solo pero ojos
+        funciona solo con conexion a internet por tal motivo dejo la vercion 1.7.1
+        -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+        <!--este script sirve para que el archivo jquery.min.js carge sin estar conectado a la red-->
+        <script>!window.jquery && document.write("<script src='js/jquery.min.js'><\/script>")</script>
+
+        <script src="js/jquery.flexslider.js"></script>
+
+        <script>
+            $(window).load(function () {
+                $(".flexslider").flexslider();
+
+            });
+        </script>
+
+       <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    </head>
+  
+                  
+    <body>
+        <header>
+            
+            <h1>
+                <a href="index.html">
+                    <img class="fade" src="img/logo.webp" />
+                  
+                </a>
+            </h1>
+
+            <nav>
+                
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca.html">Acerca</a></li>
+                    <li><a href="index.php">iniciar sesion</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <section id="contenido">
+            <section id="principal">
+                <article id="galeria-inicio">
+                    <div class="flexslider">
+                        <ul class="slides">
+                                          
+                            <li>
+                                <a><img src="img/cami1.jpeg"></a>
+                                 <p class="flex-caption"></p>
+                            </li>
+                            
+                            <li>
+                                <a><img src="img/Fondo_Ps2.png"></a>
+                                <p class="flex-caption">PS2</p>
+                            </li>
+
+                            <li>
+                                <a><img src="img/Fondo_Ps3.png"></a>
+                                <p class="flex-caption">PS3</p>
+                            </li>
+
+                            <li>
+                                <a><img src="img/Fondo_Ps4.png"></a>
+                                <p class="flex-caption">PS4</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+            </section>
+        </section>     
+    </body>
+</html>
